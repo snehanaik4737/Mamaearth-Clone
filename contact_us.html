@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/11ec43b564.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="contactus.css">
+    <link rel="stylesheet" href="./footer/footer.css">
+    <title>Document</title>
+</head>
+<body>
+    <div id="container">
+        <div id="nav"></div>
+        <div id="contact_head">
+            <h1>Contact Us</h1>
+        </div>
+        <div id="contact_us">
+            <div>
+                <div id="contact_form">
+                    <form id="c_form" >
+                        <h3 class="top">Send US An Email</h3>
+                        Name* <br>
+                        <input type="text" required> <br>
+                        Email* <br>
+                        <input type="email" required> <br>
+                        Contact Number* <br>
+                        <input type="number" required> <br>
+                        Older Id <br>
+                        <input type="text"> <br>
+                        Issue Type* <br>
+                       <select name="" id="">
+                           <option value="">Select Issue Type*</option>
+                           <option value="">Website Related</option>
+                           <option value="">Order Related</option>
+                           <option value="">Payment/Refund Related</option>
+                           <option value="">Product Enq Related</option>
+                           <option value="">Return Related</option>
+                       </select> <br>
+                        Write Message <br>
+                       <textarea name="" id="" rows="2"></textarea><br>
+                       <button>Submit Email</button>
+                    </form>
+                </div>
+                <div id="location">
+                    <h3 class="top">Contact Details</h3>
+                    <div id="detail_wrapper">
+                        <div>
+                            <div>
+                                <div class="c_icon"><i class="fa-solid fa-phone-volume"></i></div>
+                                <div class="c_detail"><strong>Phone : </strong> +91 8901 555 444,
+                                    (Monday - Saturday - 9am to 6pm)</div>
+                                </div>
+                                <div>
+                                    <div class="c_icon"><i class="fa-solid fa-location-dot"></i></div>
+                                    <div class="c_detail"><strong>Address : </strong> Plot No.63, 4th Floor,
+                                        Sector-44, Gurgaon, Haryana</div>
+                                    </div>
+                                </div>
+                                <h3 class="top">Follow Us On Social Networks</h3>
+                                <div id="social_icon">
+                                    <div><a href=""><i class="fa-brands fa-facebook"></i></a></i></div>
+                                    <div><a href=""><i class="fa-brands fa-twitter"></i></a></div>
+                                    <div><a href=""><i class="fa-brands fa-instagram"></i></a></i></div>
+                                    <div><a href=""><i class="fa-brands fa-youtube"></i></a></div>
+                                    <div><a href=""><i class="fa-brands fa-pinterest"></i></a></div>
+                                </div>
+                            </div>
+                </div>
+            </div>
+            <p id="c_home"><a href="index.html">Home</a> > Contact Us</p>
+        </div>
+        <div id="footer"></div>
+    </div>
+</body>
+</html>
+<script type="module">
+    import header from "./header.js"
+    document.getElementById("nav").innerHTML = header()
+    import footer_body from "./footer/footer_components/footer_body.js";
+    document.getElementById("footer").innerHTML = footer_body()
+</script>

@@ -1,0 +1,169 @@
+.big-img{
+    width: 100%;
+    height: auto;
+    
+}
+.top-img{
+    margin: 20px;
+    border: 1px solid rgb(216, 213, 213);
+}
+#container-1{
+    display: grid;
+    grid-template-columns: repeat(4,250px);
+    grid-gap: 20px;
+    position: relative;
+    top: 50px;
+    justify-content: center;
+}
+.div{
+    border: 2px solid rgb(135, 198, 202);
+    margin-top: 20px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 5px;
+    height: 450px;
+    
+   
+    
+}
+#container-2{
+    display: grid;
+    grid-template-columns: repeat(4,250px);
+    grid-gap: 20px;
+    position: relative;
+    top: 50px;
+    justify-content: center;
+}
+.div1{
+    border: 1px solid rgb(163, 162, 162);
+    margin-top: 20px;
+    border-radius: 5px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 5px;
+    height: 440px;
+    
+}
+.div-img{
+    width: 90%;
+    height: auto;
+}
+.baby-care-heading{
+    text-align: center;
+    color: rgb(87, 86, 86);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 23px;
+    margin-top: 50px;
+}
+.content_div{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(80, 77, 77);
+    font-size: 15px;
+    height: 160px;
+}
+.content_div1{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(80, 77, 77);
+    font-size: 15px;
+    height: 100px;
+}
+.best-sel{
+    position: absolute;
+    left: 95px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    color: rgb(83, 82, 82);
+
+}
+
+.btn{
+   width: 230px;
+   height: 40px;
+   font-size: 17px;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   color: rgb(70, 176, 184);
+   background-color: white;
+   border: 1px solid rgb(156, 173, 167);
+   margin: 15px 0px 15px 8px;
+   border-radius: 8px;
+   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+   position: relative;
+   top: 120px;
+ 
+   
+}
+.btn:hover{
+    background-color: rgb(0,175,239);
+    color: white;
+    cursor: pointer;
+}
+.ourpro{
+    position: relative;
+    top: 70px;
+    left: 90px;
+    color: rgb(73, 71, 71);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+}
+.best-s{
+   margin: 0px;
+   font-size: 13px;
+   letter-spacing: -1px;
+   color: rgb(235, 214, 214);
+   background-color: rgb(231, 99, 99);
+   width: 35%;
+   height: 20px;
+   font-family:Verdana, Geneva, Tahoma, sans-serif;
+   text-align: center;
+   border-top-left-radius: 5px;
+   border-bottom-right-radius: 5px; 
+}
+#list-item{
+    display: flex;
+    list-style-type: none;
+    gap: 20px;
+    position: relative;
+    top: 70px;
+    
+}
+#list-item>li{
+    border: 1px solid grey;
+    padding: 5px 22px;
+    border-radius: 15px;
+    position: relative;
+    left: 55px;
+    height: 32px;
+    
+}
+
+#list-item a{
+    text-decoration: none;
+    color: rgb(0, 175, 239);
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+#list-item>li:hover{
+    border: 1px solid rgb(0, 175, 239);
+    background-color: rgba(0, 175, 239, 0.05)
+
+}
+#list-item>li>a:hover{
+    text-decoration: underline;
+}
+#sortButton{
+    font-size: 17px;
+    color: rgb(49, 175, 197);
+    border: 1px solid rgb(64, 168, 125);
+    border-radius: 5px;
+    position: relative;
+    left: 85%;
+    bottom: 20px;
+}
+#slideshow{
+    display: none;
+}
+
+

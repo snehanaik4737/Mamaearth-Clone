@@ -1,1 +1,2 @@
-# Mamaearth-Clone
+# Mamaearth-main
+mamaearth clone-project

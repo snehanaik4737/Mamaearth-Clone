@@ -1,0 +1,135 @@
+#second>input{
+    height: 40px;
+    width: 20%;
+}
+#second>button{
+    height: 30px;
+    width: 30%;
+}#second{
+    margin-left: 50%;
+}#third{
+    display: flex;
+}#fourth{
+    height: 90%;
+    width: 300px;
+    /* border: 1px solid black; */
+    border-radius: 20px;
+    background-color: rgb(130,195,65);
+    color: wheat;
+}#fifth{
+    display: flex;
+}#fifth img{
+    height: 120px;
+    width: 120px;
+}#fifth1{
+    display: flex;
+    gap: 10px;
+}#sixth{
+    display: flex;
+    gap: 50px;
+   
+}#sixth img{
+    height: 100px;
+    margin-top: 50px;
+}#seventh{
+ /* height: 10%; */
+    display: flex;
+    gap: 10%;
+    background-color: rgb(207,245,209);
+    color: rgb(153,168,154);
+    height: 300px;
+}#seventh img{
+    height: 80%;
+    /* margin: 10% 100%  40% 40%; */
+}#seventh h2{
+    font-size: 30px;
+    margin: 7% 30% 10% 30%;
+    
+}
+#eigth{
+    display: flex;
+    
+    
+}#eigth  img{
+    height:100%;
+    width: 80%;
+    /* border: 1px solid gray; */
+}h1{
+    text-align: center;
+}#ninth{
+    display: flex;
+   border: 1px solid grey; 
+   margin-top: 70px;
+   gap: 20%;
+   height:180px ;
+   width: 95%;
+   /* margin-left: 0%; */
+    justify-content: space-around;
+}#ninth1{
+    display: flex;
+   border: 1px solid gray;
+   width: 98%;
+
+   height:180px;
+
+    /* gap: 10%; */
+justify-content: space-around;
+}#ninth img{
+    height: 25%;
+}#ninth button{
+    height: 20%;
+    width: 60%; 
+    border-color: rgb(1,168,230); 
+    border-radius: 10px;
+    color: rgb(1,168,230);
+}#ninth:hover button {
+    background-color: rgb(1,168,230);
+    color: white;
+}#tenth{
+    display: flex;
+    
+    border: 1px solid grey;
+    height: 180px;
+    justify-content: center;
+    margin: 0% 5% 2% 0%;
+}#tenth1{
+    display: flex;
+}#tenth1 img{
+    height: 60%;
+    margin-left:1%;
+    padding-left: 5%;
+}#tenth2 img{
+    display: flex;
+    /* border: 1 px solid grey; */
+    height: 60px;
+    
+    margin-top: 20px;
+}#tenth2{
+    display: flex;
+
+}#tenth2 >div{
+    margin: 0px 10px 0px 10px;
+  /* border: 1px solid black; */
+}#middle{
+    display: flex;
+    /* border: 1px solid black; */
+}#middle h2{
+    margin-top: 10%;
+}#te{
+    /* border: 1px solid black; */
+}#main1{
+    /* border: 1px solid black; */
+    display: flex;
+}
+   #main1 :nth-child(2){
+       /* border: 1px solid red; */
+       min-width: 50%;
+       margin-left: 40px;
+       min-height: 200px;
+       margin-top: 15px;
+
+    
+   }#slideshow{
+       display: none;
+   }
+

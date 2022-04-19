@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/11ec43b564.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./footer/footer.css">
+    <title>Document</title>
+    <link rel="stylesheet" href="./cart.css">
+ 
+</head>
+<body>
+    <div id="nav"></div>
+
+ <div id="cart">
+
+<div id="delivery_address">
+
+<h2 id="head">Delivery Address</h2>
+
+<input type="text" id="fname" placeholder="First Name*">
+<input type="text" id="lname" placeholder="Last Name*">
+
+
+<input type="text" id="email" placeholder="Email Id*">
+
+<input type="number" id="number" placeholder="Phone Number*">
+
+
+<input type="number" id="pin" placeholder="Pin Code*">
+<input type="text" id="city" placeholder="City*">
+<input type="text" id="state" placeholder="State*">
+
+
+<input type="text" id="address" placeholder="Address(House No,Building,Street,Area)*">
+
+
+<h3 class="select_add">Select the type of the Address</h3>
+
+<div class="add-opt">
+    <button id="add-opt1">Home</button>
+    <button class="add-opt2">Work</button>
+    <button class="add-opt3">Other</button>
+</div>
+
+
+</div>
+
+<div id="order-price">
+<div id="order-cart">
+    <!-- <div style="display:flex"> -->
+    <div id="head-sum"></div>
+    <!-- <button id="press">🢃</button> -->
+   <!-- </div> -->
+    
+    <div id="items"></div>
+
+
+</div>
+
+<div id="coupon">
+    <h3>Have a Coupon Code?</h3>
+    <input class="coup_vam_4" type="text" placeholder="Enter Coupon Code"/>
+    <button id="apply" onclick="Apply()">Apply</button>
+</div>
+
+
+
+
+ <Table id="table_vam_4">
+    <thead>
+        <th>Price Summary</th>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Total MRP</td>
+            <td class="tm_vam_4"></td>
+        </tr>
+        <tr>
+            <td>Coupon Discount</td>
+            <td class="cd_vam_4"></td>
+        </tr>
+        <tr>
+            <td>Total Amount</td>
+            <td class="tp_vam_4"></td>
+        </tr>
+    </tbody>
+</Table>
+
+</div>
+
+
+</div> 
+
+
+<div id="payment">
+
+<h3>Choose payment method</h3>
+
+<div id="sub-box-pay">
+
+<div id="pay-options">
+
+    <div id="field">
+        <div class="ui radio checkbox">
+          <input type="radio" name="frequency" id="UPI"checked="checked">
+          <label>UPI</label>
+        </div>
+      </div>
+      <div class="field">
+        <div class="ui radio checkbox">
+          <input type="radio" id="credit" name="frequency">
+          <label>Credit/Debit Card</label>
+        </div>
+      </div>
+      <div class="field">
+        <div class="ui radio checkbox">
+          <input type="radio" name="frequency" id="net-banking">
+          <label>Net Banking</label>
+        </div>
+      </div>
+      <div class="field">
+        <div class="ui radio checkbox">
+          <input type="radio" name="frequency" id="wallets">
+          <label>Wallets</label>
+        </div>
+      </div>
+      <div class="field">
+        <div class="ui radio checkbox">
+          <input type="radio" name="frequency" id="cash-on">
+          <label>Cash on Delivery</label>
+        </div>
+      </div>
+
+</div>
+
+<div id="payment-cont"></div>
+
+</div>
+
+</div>
+
+<div id="footer"></div>
+
+</body>
+</html>
+
+
+<script src="./scripts/cart.js">
+
+
+</script>
+<script type="module">
+  import footer_body from "../footer/footer_components/footer_body.js";
+import header from "../header.js"
+document.getElementById("nav").innerHTML = header()
+
+document.getElementById("footer").innerHTML = footer_body();
+
+</script>

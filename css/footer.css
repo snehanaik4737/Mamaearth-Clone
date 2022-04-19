@@ -1,0 +1,121 @@
+#footer_wrapper{
+    width: 80%;
+    margin: 2% auto;
+    padding: 2%;
+}
+#footer_wrapper>div{
+    border: 1px solid #c5c0c0;
+}
+.service_feature ,.service_f{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 10%    ;
+}
+.service_feature{
+    border-bottom: solid 1px #c5c0c0;
+}
+.service{
+    padding: 4%;
+    text-align: center;            
+}
+ .service_icon{
+    font-size: 2vw;
+    color: greenyellow;
+}
+.service1{
+    border-right: solid 1px #c5c0c0;
+}
+.query , #rights{
+    text-align: center;
+}
+.query>button{
+    background-color: inherit;
+    border: 1px solid #26adee;
+    padding: 3% 5%;
+    border-radius: 5px;
+    font-weight: 500;
+    color: #26adee;
+    font-size: medium;
+}
+.query>button:hover{
+    color: white;
+    background: #26adee;
+}
+#footer_payment{
+    text-align: center;
+    margin: 2% auto;
+}
+.footer_p >div{
+    margin: 2%;
+}
+.service_icon img{
+    /* width: 38px;
+    height: 38px; */
+    width: 30%;
+}
+#trust_icon img{
+    height: 20px;
+}
+.pay_img{
+    display: flex;
+    width: 60%;
+    margin: 1% auto;
+}
+.pay_img>div{
+    margin: 3%;
+}
+.pay_img img{
+    /* width: 50%; */
+    width: 60px;            
+}
+#certification{
+    width: 60%;
+    margin: 7% auto;
+    display: flex;
+    gap: 11%;
+}
+#certification img{
+    width: 65px;
+    /* width: 30%; */
+}
+#footer_nav{
+    width: 90%;
+    margin:2% auto;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 3%;
+}
+#footer_nav>div a{
+    text-decoration: none;
+    color: black;
+    margin: 50px 1%;
+}
+#footer_nav>div>div{
+    margin: 7% 1%;
+}
+#brand> img{
+    margin-top: 30px;
+    width: 100%;
+}
+#footer_payment{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    border-bottom: 1px solid #c5c0c0;
+}
+#social_count{
+    text-align: center;
+    border-bottom: 1px solid #c5c0c0;
+    border-top: 1px solid #c5c0c0;
+}
+#heart_icon{
+    color: red;
+}
+#footer_social_icons{
+    width: 50%;
+    margin: 2% auto;
+    font-size: 2em;
+}
+#footer_social_icons>div
+{
+    display: inline-block;
+}

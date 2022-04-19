@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./otp.css" />
+
+</head>
+<body>
+    <div id="otpbox">
+        <form>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSaW4cAuI9YLmQHIRWywmtjvYqdDcfzAc5vew&usqp=CAU">
+        <h2>Enter One Time Password(OTP)</h2>
+        <p>Myntra has sent you an otp on your registered mobile number +91-**********</p>
+        <input type="password" id="otpenter" placeholder="Enter OTP here">
+        <br>
+        <input type="submit" id="confirm" value="CONFIRM"/>
+        </form>
+    </div>
+</body>
+</html>
+<script>
+document.querySelector("form").addEventListener("submit", confirm);
+//var x=localStorage.getItem("User_name")
+function confirm(event){
+    event.preventDefault();
+        var selected= document.querySelector("#otpenter").value;
+        if(selected=="1234"){
+          //  alert(" Thanks for shopping in Mamaearth, your order has been successfully placed!");
+            var o=JSON.parse(localStorage.getItem("cartdata"));
+            console.log(o);
+           localStorage.setItem("My_orders",JSON.stringify(o));
+
+        //    localStorage.removeItem("cartdata");
+            window.location.href="thanks.html";
+        }
+    
+
+}
+</script>

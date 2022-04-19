@@ -1,0 +1,271 @@
+#cart{
+    display: flex;
+    /* margin-top: 50%; */
+}
+#slideshow{
+    display:none;
+}
+   #delivery_address{
+
+    width:50%;
+    margin-top: 10%;
+    margin-left:10%;
+}
+#fname,#lname,#email,#number{
+width:45%;
+padding:1.5%;
+}
+input{
+margin-bottom: 4%;
+border:2px solid lightgray ; 
+}
+
+#pin,#city,#state{
+width:29%;
+padding:1%;
+margin-right: 1%;
+}
+#address{
+width:90%;
+padding:2% ;
+}
+.add-opt{
+height:60px;
+background: #fff;
+padding:0 20px;
+display:flex;
+align-items: center;
+}
+.add-opt>button{
+padding:10px 20px;
+border-radius: 50px;
+background: #f0f0f0;
+border:1px solid #dbdbdb;
+margin-right: 10px;
+color:#242424;
+ font-size:15px;
+ cursor: pointer;
+ overflow-x: auto;
+ margin-top: -20px;
+
+}
+#add-opt1{
+background-color: aquamarine;
+}
+.add-opt>button:hover{
+background-color: aqua ;
+}
+.select{
+margin-top: 0;
+color:gray;
+}
+
+#order-cart{
+width:100%;
+/* border:1px solid black; */
+/* height:500px; */
+/* margin-top: 15%; */
+overflow: scroll;
+height:400px;
+border-bottom: 5px solid #eee8aa;
+}
+#order-price{
+width:40%;
+border:1px solid black;
+/* height:500px; */
+margin-top: 15%;
+}
+
+#payment{
+/* display:flex; */
+margin-left:9%;
+margin-top:-22%;
+width:50%;
+
+}
+#pay-options{
+width:30%;
+ border-radius: 4px;
+ height:217px;
+border:1px solid gray;
+
+}
+.field,#field{
+border-bottom:2px  solid lightgray;
+padding: 10px;
+}
+#field{
+background-color:aliceblue;
+object-fit: cover;
+}
+
+#check{
+display:flex;
+}
+#check>img{
+width:8%;
+height:5%;
+}
+
+#payment-cont{
+width:70%;
+border:2px  solid lightgray;
+margin-left: 1%;
+padding:3%;
+
+
+}
+#sub-box-pay{
+display:flex;
+
+}
+#upi-id,#numbercard,#name,#otp{
+width:95%;
+padding:2%;
+font-size: 16px;
+border-radius: 5px;
+}
+#upi_order,#upi-order,#otp-button{
+width:100%;
+padding:2%;
+background-color: dodgerblue;
+color: white;
+font-size: 16px;
+border: none;
+}
+#visa>img{
+width:15%;
+height:20%;
+}
+#visa{
+margin: auto;
+}
+#MM,#CVV{
+width:30%;
+padding:2%;
+/* margin-left: 8%; */
+border-radius: 5px;
+}
+#net-bank-img{
+display:flex;
+justify-content: space-around;
+}
+#net-bank-img img{
+width:50%;
+height:40%;
+
+}
+#banks{
+width:100%;
+padding:2%;
+border:1px solid blue;
+border-radius: 5px;
+margin-bottom: 5%;
+
+}
+#wallets-img>img{
+width:30%;
+height:20%;
+}
+
+#cash-text{
+width:100%;
+background-color: lightgreen;
+border:1px solid blue;
+border-radius: 5px;
+margin-bottom:5px;
+
+}
+#cash-text>h5{
+margin-top:1px;
+margin-bottom:1px;
+margin-left: 5px;
+}
+#flex{
+display:flex;
+height:50%;
+border-bottom: 2px solid lightgray;
+}
+#img_div{
+width:20%;
+height:100px;
+}
+#desc-div{
+width:70%;
+margin-left: 5%;
+}
+#img_div>img{
+width:100%;
+height:100%;
+}
+
+#head-sum{
+font-weight: bolder;
+color:deepskyblue;
+font-size:x-large;
+/* background-color: black; */
+position:relative;
+padding-left: 10%;
+border-bottom: 5px solid #eee8aa;
+
+
+}
+#btn{
+width:10%;
+height:15%;
+/* border:none; */
+
+}
+#delete-flex{
+display: flex;
+justify-content: space-between;
+
+}
+#btn>img{
+width:100%;
+height:100%;
+margin:auto;
+}
+#table_vam_4{
+width:100%; 
+/* border:2px solid lightcoral; */
+}
+#table_vam_4 th{
+font-weight: bolder;
+font-size: larger;
+}
+#table_vam_4 th,#table_vam_4 td{
+
+padding: 6px;
+width: 50%;
+}
+#table_vam_4 thead{
+text-align: left;
+padding: 2%;
+
+}
+#table_vam_4 tr{
+border:2px solid darkgray;
+}
+.coup_vam_4{
+width:70%;
+padding:2%;
+margin-left: 2%;
+border-radius: 5px;
+font-weight: bolder;
+font-size:large;
+
+
+}
+#apply{
+padding:12px;
+background-color: aqua;
+margin-left: -5px;
+border:1px solid darkgray;
+width:15%;
+border-radius: 5px;
+}
+
+#coupon{
+border-bottom: 5px solid #eee8aa;
+}

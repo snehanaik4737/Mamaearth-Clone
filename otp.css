@@ -1,0 +1,36 @@
+#otpbox{
+    width:30%;
+    padding:5%;
+    margin:auto;
+    text-align:center;
+
+}
+h2,p,#otpenter,#confirm{
+    font-family:Helvetica,Arial,sans-serif;
+}
+p{
+    color:grey
+}
+#otpenter{
+  padding:15px;
+  width:70%;
+  font-size: large; 
+  text-align: center; 
+  border-radius:30px;
+  border:1px solid grey;
+}
+#confirm{
+background-color: rgb(238, 105, 176);
+color:white;
+padding:20px;
+width:80%;
+margin-top: 30px;
+border:0;
+font-size: large; 
+border-radius:30px;
+
+}
+#confirm:hover{
+background-color:darkgreen;
+border:1px solid black;
+}

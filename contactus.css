@@ -1,0 +1,89 @@
+#contact_head{
+    text-align: center;
+    background-color: #f2f9e8;
+    font-weight: bolder;
+    padding: 2%;
+    color: #8a9abc;
+}
+#contact_head>h1{padding: 0;}
+#slideshow{
+    display: none;
+}
+.top{
+    text-align: center;
+    padding: 2%;
+    font-weight: bolder;
+    margin: 6.5%;
+    color: black;
+}
+#contact_us{
+    width: 80%;
+    margin: auto auto;
+}
+#contact_us>div{
+    display: flex;    
+}
+#contact_us>div>div{
+    flex: 5;
+}
+#c_form>input,select,option,textarea{
+    width: 95%;
+    padding: 2% 0;
+    margin: 2% 0;
+    border: none;
+    border-bottom: 1px solid #8a9abc;
+}
+#c_form{
+    border-right: 1px solid #8a9abc;
+    color: #8a9abc;
+}
+#c_form>button{
+    width: 95%;
+    padding: 2% 0;
+    margin: 2% 0;
+    border: none;
+    font-weight: bolder;
+    font-size: larger;
+    background-color: #00aefe;
+    color: white;
+    cursor: pointer;
+}
+#detail_wrapper{
+    width: 80%;
+    margin: auto;
+}
+#detail_wrapper>div,#detail_wrapper>div>div{
+    display: flex;
+    gap: 5%;
+}
+.c_icon{
+    height: fit-content;
+    padding: 5%;
+    border: 1px solid #8a9abc;
+    border-radius: 50%;
+}
+#social_icon{
+    width: 80%;
+    margin: auto auto;
+    font-size: 3vw;
+}
+#social_icon>div{
+    margin:0 2%;
+    padding: 1% 2%;
+}
+#c_home{
+    font-weight: 600;
+    color: #8a9abc;
+}
+#c_home>a{
+    text-decoration: none;            
+    color: #00aefe;
+}
+@media screen and (min-width:0px)  and (max-width:768px) {
+    #contact_us>div{
+        display: block;        
+    }
+    #contact_us{width: 90%;}
+    #c_form{border: none;}
+    #social_icon{font-size: 5vw;}
+}

@@ -1,0 +1,93 @@
+#profile{
+    /* font-family: 'Lato', sans-serif; */
+    /* font-weight: 600; */
+    display: flex;
+    margin: 10% auto;
+    width: 80%;
+    background-color: #ffffff;
+    padding: 5%;
+    font-size: 1.5vw;
+    border: 1px solid #e5e5e5;
+    border-radius: 10px;
+}
+#view_link{
+    flex: 3;
+    border: 1px solid #e5e5e5;
+    border-radius: 5px;
+}
+#slideshow{
+    display: none;
+}
+.menu_item{
+    padding: 5% 3.2%;
+    display: flex;
+    gap: 4%;
+    border-bottom: 1px solid #e5e5e5;
+    cursor: pointer;
+}
+.menu_item:last-child{
+    border-bottom: none;
+}
+.menu_item:hover{
+    background-color: #f2fbfe;
+}
+.active{
+    padding: 5% 2%;
+    background-color: #f2fbfe;
+    border-left: 5px solid #39c1f5;
+    color: #39c1f5;
+}
+#active_link{
+    flex: 7;
+}
+ #card{
+    width: 50%;
+    margin: 10% auto;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 5px;
+    padding: 5%;
+    display: flex;
+    gap: 5%;
+}
+.card_img{flex:1;}
+.card_img img{width: 100%;}
+.card:last-child{flex:6;padding: 2%;}
+.card_details{flex: 2;}
+.card_details h3,p{margin: 3% 0}
+#edit_button{
+    border: none;
+    color: #39c1f5;
+    cursor: pointer;
+    font-size: 1.5vw;
+    background-color: inherit;
+    font-weight: 600;
+}
+#frame{
+    text-align: center;
+    width: 50%;
+    margin: 2% auto;
+}
+ 
+#wallet{
+    font-size: 2vw;
+    font-weight: bolder;
+}
+#wallet span , #intruction{
+    color: #6da523;
+}
+#frame>div{
+    border: 1px solid #e5e5e5;
+    border-radius: 5px;
+    padding: 2%;
+    margin: 2%;
+}
+#frame button{
+    background-color: #39c1f5;
+    color: white;
+    border: none;
+    font-weight: bold;
+    padding: 2% 4%;
+    font-size: 1.5vw;
+    margin: 4%;
+    cursor: pointer;
+}
