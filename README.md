@@ -55,9 +55,6 @@ _A product-based e-commerce website selling baby care, skin care, and hair care 
 
   ![Landing Page](https://miro.medium.com/max/1050/0*kQ2sRx8dyoPaHrSO.png)
 
-- **Women's Clothing Page**
-
-  ![Landing Page](https://miro.medium.com/max/1400/1*0Kpvob2nC5OCvyJZdKR1ww.png)
 
 - **Profile Page**
 
